@@ -32,7 +32,7 @@ function clearScreen() {
 }
 
 function sscreenUpdate(num) {
-    num1 += num
+    (num === '.' & num1.includes('.')) ? num1 : num1 += num
     secondScreen.textContent = num1
 }
 
