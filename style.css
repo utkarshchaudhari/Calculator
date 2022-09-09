@@ -26,19 +26,16 @@ main{
     border-radius: 10px;
     margin-bottom: 4px;
     padding: 16px;
+    text-align: right;
+    word-wrap: break-word;
 }
 
 .first-screen{
-    display: flex;
-    justify-content: end;
-    height: 30px;
+    min-height: 30px;
 }
 
 .second-screen{
-    word-wrap: break-word;
-    /* word-break: break-all; */
     font-size: 38px;
-    text-align: right;
 }
 
 .btn-wrapper1{
